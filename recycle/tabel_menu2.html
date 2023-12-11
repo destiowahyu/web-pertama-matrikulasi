@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+    a{text-decoration: none; font-size: 20px;font-family: sans-serif;padding: 14px 10px}
+    ul{padding: 14px}
+    li{list-style: none; display: inline;}
+    li a{background: #03a4ba; color:white;}
+    li a:hover{background: #4da4ff; color:#fff;}
+    .navi{background: #03a4ba; height: 50px}
+</style>
+ 
+<nav class="navi"><center>
+    <ul>
+        <li><a href="ngarep.html">Halaman Utama</a></li>
+        <li><a href="gambar_gambar.html">Gambar - Gambar</a></li>
+        <li><a href="menu.html">Tabel Menu</a></li>
+        <li><a href="contact.html"></a></li>
+    </ul>
+</center></nav>
+<br>
+			<title>Tabel Menu & Form Pemesanan</title>
+		</head>
+	<body>
+		
+<hr color="white" width="25%" >
+<p  align="center"><font face="couture" color="#d99e77" size="4"> Silahkan Pesan Disini :</font></p>
+<hr color="white" width="25%" align="center">
+
+
+<table>
+	<style>
+			table, th, td {border: 1px solid blue;}
+	</style>
+<table align="center" border="0" cellpadding="20">
+	<form method="GET" action="pesanan_selesai.php">
+	<tr>
+		<td>Nama Pemesan</td>
+		<td> <input type="text" name="nama" size="30" placeholder="Masukkan nama Anda disini" required /> </td>
+	</tr>
+	<tr>
+		<td>Jenis Pesanan</td>
+		<td><input type="radio" name="jenis_pesanan" value="disini" /> Makan Disini</label>
+			<input type="radio" name="jenis_pesanan" value="antar" /> Pesan Antar</label> </td>
+	</tr>
+	<tr>
+		<td>Nomor Meja (Abaikan nomor meja jika anda memilih pesan antar)</td>
+		<td> <select name="nomor_meja" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+            </select> 
+     </td>
+	</tr>
+	<tr>
+		<td>Alamat</td>
+		<td> <input type="text" name="alamat" size="51" placeholder="Masukkan Alamat Anda jika anda memilih pesan antar" /> </td>
+	</tr>
+	<tr>
+		<td>Nomor Telepon</td>
+		<td> <input type="text" name="nomor_telepon" size="55" placeholder="Masukkan nomor telepon Anda jika anda memilih pesan antar" /> </td>
+	</tr>
+	<tr>
+		<td>Menu yang dipesan</td>
+		<td><textarea name="menu_yang_dipesan"> </textarea>
+	</tr>
+</table>
+<br>
+<center> <input type="submit" name="pesan" value="Buat Pesanan Sekarang!"> </center>
+</form>
+
+<hr color="white" width="20%" >
+<p  align="center"><font face="couture" color="#d99e77" size="4"> Daftar menu yang tersedia :</font></p>
+<hr color="white" width="20%" >
+<table>
+	<style>
+			table, th, td {border: 1px solid blue;}
+	</style>
+<table align="center" border="0" width="1280px" cellpadding="20">
+  <tr>
+    <th>Nama Makanan</th>
+    <th>Harga</th>
+		<th>Gambar</th>
+  </tr>
+  <tr>
+    <td><center>Ayam Geprek</center></td>
+    <td><center>Rp 10.000</center></td>
+	<td><center><img style="border: solid #d8dee4; padding:10px; margin: 8px" src="https://cdn.idntimes.com/content-images/community/2017/05/resep-membuat-ayam-geprek-pedas-enak-lezat-d9bea1c9539193797451c51f77f2ef06_600x400.jpg" height="150" /> </td> </center>
+  </tr>
+  <tr>
+    <td><center>Bandeng Presto</center></td>
+    <td><center>Rp 15.000</center></td>
+	<td><center><img style="border: solid #d8dee4; padding:10px; margin: 8px" src="https://1.bp.blogspot.com/-MiZDyoo5_hk/XQyKUn61wSI/AAAAAAAAAqE/4TN8Evp9RuUgQa3lqSFpBZpoGpKOegPcQCLcBGAs/s1600/Cara%2BMembuat%2BBandeng%2BPresto%2Byang%2BEnak%2BKhas%2BSemarang%2B-%2Bwistakul.com.jpg" height="150" /> </td> </center>
+  </tr>
+   <tr>
+    <td><center>Nila Bakar</center></td>
+    <td><center>Rp 20.000</center></td>
+	<td><center><img style="border: solid #d8dee4; padding:10px; margin: 8px" src="https://img-global.cpcdn.com/recipes/1180a212dc193a59/751x532cq70/nila-bakar-madu-pakai-teflon-foto-resep-utama.jpg" height="150" /> </td> </center>
+  </tr>
+   <tr>
+    <td><center>Capcin</center></td>
+    <td><center>Rp 5000</center></td>
+	<td><center><img style="border: solid #d8dee4; padding:10px; margin: 8px" src="https://cdn-cas.orami.co.id/parenting/images/capcin.width-800.jpg" height="150" /> </td> </center>
+  </tr>
+   <tr>
+    <td><center>Eskrim</center></td>
+    <td><center>Rp 8000</center></td>
+	<td><center><img style="border: solid #d8dee4; padding:10px; margin: 8px" src="https://cdn-cas.orami.co.id/parenting/images/es_krim1.width-800.jpg" height="150" /> </td> </center>
+  </tr>
+   <tr>
+    <td><center>Ayam Bakar</center></td>
+    <td><center>Rp 17.000</center></td>
+	<td><center><img style="border: solid #d8dee4; padding:10px; margin: 8px" src="https://asset.kompas.com/crops/cdF6KaI9leY8crhXMhllb2HEwSY=/0x75:1000x741/750x500/data/photo/2021/01/27/601133df644c1.jpg" height="150" /> </td> </center>
+  </tr>
+</table>
+
+				
+				<center>
+					<img style="border: solid red; padding:10px; margin: 15px" src="https://selerasa.com/wp-content/uploads/2015/08/images_ikan_ikan-nila-bakar-kecap.jpg" height="150" />
+					<img style="border: solid red; padding:10px; margin: 15px" src="https://asset.kompas.com/crops/cdF6KaI9leY8crhXMhllb2HEwSY=/0x75:1000x741/750x500/data/photo/2021/01/27/601133df644c1.jpg" height="150" />
+					<img style="border: solid red; padding:10px; margin: 15px" src="https://1.bp.blogspot.com/-MiZDyoo5_hk/XQyKUn61wSI/AAAAAAAAAqE/4TN8Evp9RuUgQa3lqSFpBZpoGpKOegPcQCLcBGAs/s1600/Cara%2BMembuat%2BBandeng%2BPresto%2Byang%2BEnak%2BKhas%2BSemarang%2B-%2Bwistakul.com.jpg" height="150" />
+					<img style="border: solid red; padding:10px; margin: 15px" src="http://kbu-cdn.com/dk/wp-content/uploads/ayam-goreng-pedas.jpg" height="150" />
+				</center>
+					
+				<center>
+					<img style="border: solid red; padding:10px; margin: 15px" src="https://cdn-cas.orami.co.id/parenting/images/capcin.width-800.jpg" height="150" />
+					<img style="border: solid red; padding:10px; margin: 15px" src="https://mesineskrim.co/wp-content/uploads/2018/10/es-krim-sundae.jpeg" height="150" />
+					<img style="border: solid red; padding:10px; margin: 15px" src="https://www.anekawisata.com/wp-content/uploads/2015/06/Es-Krim-Magnum-Cafe.jpg" height="150" />
+				</center>
+		<body background="gambar1.jpg">
+	</body>
+ <font color="#006666"><font face="bebas neue">Kunjungi Instagramku : 
+ <a href="https://instagram.com/destiowahyu"><font color="#1f6375"><font face="verdana"><font size="2">@destiowahyu</a>
+
+</html>

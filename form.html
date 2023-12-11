@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulir Pemesanan Makanan - R. Ndeso</title>
+	<h1 align="center"><font face="BEBAS NEUE" color="white" size="7"> RESTORAN NDESO</font></h1>
+			<style type="text/css">
+    	a{text-decoration: none; font-size: 18px;font-family: sans-serif;padding: 14px 10px}
+    	ul{padding: 14px}
+   		li{list-style: none; display: inline;}
+   		li a{background: #03a4ba; color:white;}
+    	li a:hover{background: #4da4ff; color:#fff;}
+    	.navi{background: #03a4ba; height: 50px}
+			</style>
+ 
+<nav class="navi"><center>
+    <ul>
+       <li><a href="ngarep.html">Halaman Utama</a></li>
+        <li><a href="gambar_gambar.html">Gallery Menu</a></li>
+        <li><a href="menu.html">Tabel Menu</a></li>
+        <li><a href="form.html">Formulir Pemesanan</a></li>
+        <li><a href="contact.html">Kontak Kami</a></li>
+    </ul>
+</center></nav>
+<br>
+</head>
+
+<body>
+	<hr color="white" width="25%" >
+<p  align="center"><font face="couture" color="#d99e77" size="4"> Silahkan Pesan Disini :</font></p>
+<hr color="white" width="25%" align="center">
+
+	<style>
+			table, th, td {border: 1px solid #02536e;}
+	</style>
+<table  align="center" border="0" cellpadding="20">
+	<form method="GET" action="pesanan_selesai.php">
+	<tr>
+		<td>Nama Pemesan</td>
+		<td> <input type="text" name="nama" size="30" placeholder="Masukkan nama Anda disini" required /> </td>
+	</tr>
+	<tr>
+		<td>Jenis Pesanan</td>
+		<td><input type="radio" name="jenis_pesanan" value="Makan Disini" /> Makan Disini</label>
+			<input type="radio" name="jenis_pesanan" value="Pesan Antar" /> Pesan Antar</label> </td>
+	</tr>
+	<tr>
+		<td>Nomor Meja (Abaikan nomor meja jika anda memilih pesan antar)</td>
+		<td> <select name="nomor_meja" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+            </select> 
+     </td>
+	</tr>
+	<tr>
+		<td>Alamat</td>
+		<td> <input type="text" name="alamat" size="51" placeholder="Masukkan Alamat Anda jika anda memilih pesan antar" /> </td>
+	</tr>
+	<tr>
+		<td>Nomor Telepon</td>
+		<td> <input type="text" name="nomor_telepon" size="55" placeholder="Masukkan nomor telepon Anda jika anda memilih pesan antar" /> </td>
+	</tr>
+	<tr>
+		<td>Menu yang dipesan</td>
+		<td><textarea name="menu_yang_dipesan"> </textarea>
+	</tr>
+</table>
+<br>
+<center> <input type="submit" name="pesan" value="Buat Pesanan Sekarang!"> </center>
+</form>
+<body background="img/gambar1.jpg">
+ <font color="white"><font face="bebas neue">Kunjungi Instagramku : 
+ <a href="https://instagram.com/destiowahyu"><font color="#a3b899"><font face="verdana"><font size="2">@destiowahyu</a>
+</body>
+
+</html>
